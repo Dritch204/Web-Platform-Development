@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/location_name"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:text="North London"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/magnitude"
+        android:layout_below="@+id/location_name"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:text="North London"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/earthquake_date"
+        android:layout_below="@+id/magnitude"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:text="XX/XX/XXXX"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/color_type"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/earthquake_date"
+        android:background="@color/black"
+        />
+
+
+
+</RelativeLayout>
+
+
+
+
+
